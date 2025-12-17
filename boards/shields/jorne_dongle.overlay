@@ -1,9 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/jorne.dtsi>
 
-&physical_layout0 {
-    transform = <&jorne_transform>;
-    };
 / {
     chosen {
         zmk,kscan = &mock_kscan;
