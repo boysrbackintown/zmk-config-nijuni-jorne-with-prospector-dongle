@@ -1,7 +1,7 @@
 if SHIELD_JORNE_DONGLE
 
 # Max 16 characters in keyboard name
-config ZMK_JORNE
+config ZMK_KEYBOARD_NAME
     default "Jorne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
