@@ -1,5 +1,10 @@
-#include <dt-bindings/zmk/matrix_transform.h>
 #include <layouts/jorne.dtsi>
+
+&physical_layout0 {
+    transform = <&jorne_transform>;
+};
+
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
@@ -12,7 +17,6 @@
         rows = <0>;
         events = <0>;
     };
-
 
     jorne_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
