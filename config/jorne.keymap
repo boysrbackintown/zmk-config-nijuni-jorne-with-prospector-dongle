@@ -91,9 +91,9 @@
             //                          |     |     | ADJ |   | ADJ |     |     |
 
             bindings = <
-&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp UP_ARROW  &kp PG_UP  &kp C_AC_ZOOM_OUT  &kp C_AC_ZOOM_IN  &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT  &kp UP        &kp RIGHT  &kp INS            &mt RCTRL K_APP
-        &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp K_PP      &kp PG_DN  &kp PAUSE_BREAK    &kp F13
+&trans  &kp KP_NUM       &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME  &kp UP_ARROW  &kp PG_UP  &zoom_out        &zoom_in         &trans
+        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT  &kp UP        &kp RIGHT  &kp INS          &mt RCTRL K_APP
+        &trans           &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp END   &kp K_PP      &kp PG_DN  &kp PAUSE_BREAK  &kp F13
                                                      &trans     &trans     &trans          &trans        &trans    &trans
             >;
         };
